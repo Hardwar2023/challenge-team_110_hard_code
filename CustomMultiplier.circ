@@ -78,7 +78,6 @@
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(270,1050)" name="Clock"/>
     <comp lib="0" loc="(280,840)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
@@ -87,9 +86,6 @@
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(290,810)" name="Constant"/>
-    <comp lib="0" loc="(310,1050)" name="Tunnel">
-      <a name="label" val="clk"/>
-    </comp>
     <comp lib="0" loc="(310,540)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
@@ -115,7 +111,7 @@
       <a name="label" val="clk"/>
     </comp>
     <comp lib="0" loc="(390,430)" name="Tunnel">
-      <a name="label" val="clk1"/>
+      <a name="label" val="clk"/>
     </comp>
     <comp lib="0" loc="(400,250)" name="Tunnel">
       <a name="label" val="A"/>
@@ -241,7 +237,6 @@
     <wire from="(250,640)" to="(380,640)"/>
     <wire from="(260,660)" to="(260,690)"/>
     <wire from="(260,660)" to="(380,660)"/>
-    <wire from="(270,1050)" to="(310,1050)"/>
     <wire from="(270,680)" to="(270,700)"/>
     <wire from="(270,680)" to="(380,680)"/>
     <wire from="(280,700)" to="(280,710)"/>
